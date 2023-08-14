@@ -1,0 +1,31 @@
+{
+  "code": 200,
+  "message": "OK",
+  "data": [
+    {
+      "id": "1629043909764055040",
+      "parentId": "0",
+      "children": [
+        {
+          "id": "1629043909764055041",
+          "parentId": "1629043909764055040",
+          "name": "InsuranceCompanyList",
+          "path": "/insure/insuranceCompanyList",
+          "component": "table/element-plus/index",
+          "meta": {
+            "title": "公司"
+          }
+        }
+      ],
+      "name": "Insure",
+      "path": "/insure",
+      "component": "layouts/index",
+      "redirect": "/insure/insuranceCompanyList",
+      "meta": {
+        "title": "保險公司",
+        "svgIcon": "menu",
+        "alwaysShow": true
+      }
+    }
+  ]
+}
